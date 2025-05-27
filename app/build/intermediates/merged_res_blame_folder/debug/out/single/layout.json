@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.weboverlay.app-mergeDebugResources-45:/layout/overlay_layout.xml",
+        "source": "com.example.weboverlay.app-main-48:/layout/overlay_layout.xml"
+    },
+    {
+        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-mergeDebugResources-45:/layout/settings_activity.xml",
+        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/layout/settings_activity.xml"
+    },
+    {
+        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-mergeDebugResources-45:/layout/overlay_layout.xml",
+        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/layout/overlay_layout.xml"
+    }
+]

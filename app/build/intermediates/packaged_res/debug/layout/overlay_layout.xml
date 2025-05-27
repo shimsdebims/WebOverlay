@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <!-- Base layer: Camera/HDMI view -->
+    <TextureView
+        android:id="@+id/camera_texture_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" 
+        android:visibility="visible" />
+    
+    <!-- Middle layer: Placeholder for semi-transparent regions -->
+    <View
+        android:id="@+id/overlay_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000" />
+    
+    <!-- Status indicator (appears on top of content) -->
+    <TextView
+        android:id="@+id/overlay_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overlay Active"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:background="#80000000"
+        android:padding="4dp"
+        android:layout_gravity="top|start"
+        android:layout_margin="8dp" />
+    
+    <!-- Top layer: WebView for Xibo content -->
+    <WebView
+        android:id="@+id/overlay_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:hardwareAccelerated="true"
+        android:layerType="hardware"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+</FrameLayout>

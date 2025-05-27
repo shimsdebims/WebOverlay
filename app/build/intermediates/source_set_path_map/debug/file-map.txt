@@ -1,0 +1,49 @@
+com.example.weboverlay.app-appcompat-resources-1.6.1-0 /Users/shimasarah/.gradle/caches/transforms-3/02c79a38475b260640d094e77a2b2c56/transformed/appcompat-resources-1.6.1/res
+com.example.weboverlay.app-window-1.0.0-1 /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/res
+com.example.weboverlay.app-lifecycle-viewmodel-ktx-2.6.1-2 /Users/shimasarah/.gradle/caches/transforms-3/0d6667805ba95a97b1265f962f4f9360/transformed/lifecycle-viewmodel-ktx-2.6.1/res
+com.example.weboverlay.app-core-1.10.1-3 /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/res
+com.example.weboverlay.app-coordinatorlayout-1.1.0-4 /Users/shimasarah/.gradle/caches/transforms-3/1abb1035bb8a9c4eb057e4213de35400/transformed/coordinatorlayout-1.1.0/res
+com.example.weboverlay.app-lifecycle-livedata-2.6.1-5 /Users/shimasarah/.gradle/caches/transforms-3/1b340f1aca83c1e882ac68b79d8d0df7/transformed/lifecycle-livedata-2.6.1/res
+com.example.weboverlay.app-emoji2-1.2.0-6 /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/res
+com.example.weboverlay.app-fragment-ktx-1.6.1-7 /Users/shimasarah/.gradle/caches/transforms-3/1f7bb41dc304320cfe3285fc4457c4ea/transformed/fragment-ktx-1.6.1/res
+com.example.weboverlay.app-activity-ktx-1.7.2-8 /Users/shimasarah/.gradle/caches/transforms-3/36f9050b05aba6e6804438b4c6f8b10a/transformed/activity-ktx-1.7.2/res
+com.example.weboverlay.app-appcompat-1.6.1-9 /Users/shimasarah/.gradle/caches/transforms-3/38fdf4e56534b3c4c6a8297bf7eeddee/transformed/appcompat-1.6.1/res
+com.example.weboverlay.app-constraintlayout-2.1.4-10 /Users/shimasarah/.gradle/caches/transforms-3/395d71d697a2819f71d941e83c2d5fe8/transformed/constraintlayout-2.1.4/res
+com.example.weboverlay.app-startup-runtime-1.1.1-11 /Users/shimasarah/.gradle/caches/transforms-3/4573a54a4cb907959ef8ca8349b0a217/transformed/startup-runtime-1.1.1/res
+com.example.weboverlay.app-lifecycle-viewmodel-2.6.1-12 /Users/shimasarah/.gradle/caches/transforms-3/4d1da6a6161390c1e21c57807d5a91b4/transformed/lifecycle-viewmodel-2.6.1/res
+com.example.weboverlay.app-camera-camera2-1.2.3-13 /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/res
+com.example.weboverlay.app-lifecycle-livedata-core-2.6.1-14 /Users/shimasarah/.gradle/caches/transforms-3/59be872dd741da2aefad29199a5c688e/transformed/lifecycle-livedata-core-2.6.1/res
+com.example.weboverlay.app-camera-extensions-1.2.3-15 /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/res
+com.example.weboverlay.app-slidingpanelayout-1.2.0-16 /Users/shimasarah/.gradle/caches/transforms-3/5faf4f37a2464b5e2559ef5de2aa12e8/transformed/slidingpanelayout-1.2.0/res
+com.example.weboverlay.app-camera-core-1.2.3-17 /Users/shimasarah/.gradle/caches/transforms-3/6267fae8c7df031dbcdad7f0efb86bf8/transformed/camera-core-1.2.3/res
+com.example.weboverlay.app-recyclerview-1.3.1-18 /Users/shimasarah/.gradle/caches/transforms-3/836b5a655fa346de50c408e12bac5489/transformed/recyclerview-1.3.1/res
+com.example.weboverlay.app-material-1.9.0-19 /Users/shimasarah/.gradle/caches/transforms-3/8a34df234dde28e808011cb39171291e/transformed/material-1.9.0/res
+com.example.weboverlay.app-lifecycle-runtime-2.6.1-20 /Users/shimasarah/.gradle/caches/transforms-3/8eec3305fa08ab6c364850fac4f2f3da/transformed/lifecycle-runtime-2.6.1/res
+com.example.weboverlay.app-lifecycle-process-2.6.1-21 /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/res
+com.example.weboverlay.app-viewpager2-1.1.0-beta02-22 /Users/shimasarah/.gradle/caches/transforms-3/94625e9adf76b68b64b5a9393eec559a/transformed/viewpager2-1.1.0-beta02/res
+com.example.weboverlay.app-fragment-1.6.1-23 /Users/shimasarah/.gradle/caches/transforms-3/99ca0e04924790d587dd80e4f2a7971d/transformed/fragment-1.6.1/res
+com.example.weboverlay.app-customview-poolingcontainer-1.0.0-24 /Users/shimasarah/.gradle/caches/transforms-3/a2daf81b4fcdb9411407370aab802473/transformed/customview-poolingcontainer-1.0.0/res
+com.example.weboverlay.app-savedstate-1.2.1-25 /Users/shimasarah/.gradle/caches/transforms-3/a562fd5ab5c81cddcd101a43f3b48c00/transformed/savedstate-1.2.1/res
+com.example.weboverlay.app-annotation-experimental-1.3.0-26 /Users/shimasarah/.gradle/caches/transforms-3/ab5897bac2b522502e373a21237ed7a0/transformed/annotation-experimental-1.3.0/res
+com.example.weboverlay.app-emoji2-views-helper-1.2.0-27 /Users/shimasarah/.gradle/caches/transforms-3/aeb0f0d790cc2bb2c39fde0c88c87687/transformed/emoji2-views-helper-1.2.0/res
+com.example.weboverlay.app-drawerlayout-1.1.1-28 /Users/shimasarah/.gradle/caches/transforms-3/b2c0baf04ac6533147f9384ef4e31969/transformed/drawerlayout-1.1.1/res
+com.example.weboverlay.app-camera-lifecycle-1.2.3-29 /Users/shimasarah/.gradle/caches/transforms-3/bc2910afc22e4a06940c2a4073b98d2e/transformed/camera-lifecycle-1.2.3/res
+com.example.weboverlay.app-transition-1.4.1-30 /Users/shimasarah/.gradle/caches/transforms-3/be6c02f4dc80936641727f0e2c745f46/transformed/transition-1.4.1/res
+com.example.weboverlay.app-preference-1.2.0-31 /Users/shimasarah/.gradle/caches/transforms-3/c642d1b6d32ecb7d29c930f789616aee/transformed/preference-1.2.0/res
+com.example.weboverlay.app-cardview-1.0.0-32 /Users/shimasarah/.gradle/caches/transforms-3/c8bdece1432d6bd447ee6e396aae1f67/transformed/cardview-1.0.0/res
+com.example.weboverlay.app-lifecycle-livedata-core-ktx-2.6.1-33 /Users/shimasarah/.gradle/caches/transforms-3/ca7e140cc58d5f762da81c9f472987b6/transformed/lifecycle-livedata-core-ktx-2.6.1/res
+com.example.weboverlay.app-core-runtime-2.2.0-34 /Users/shimasarah/.gradle/caches/transforms-3/d4c59bd9210ecc79c0b9d6f2393b2a4a/transformed/core-runtime-2.2.0/res
+com.example.weboverlay.app-savedstate-ktx-1.2.1-35 /Users/shimasarah/.gradle/caches/transforms-3/dc0b633bb9c86c4d862bb6470002309b/transformed/savedstate-ktx-1.2.1/res
+com.example.weboverlay.app-lifecycle-runtime-ktx-2.6.1-36 /Users/shimasarah/.gradle/caches/transforms-3/e07779babc2cb85dcdbe8788d188cfb4/transformed/lifecycle-runtime-ktx-2.6.1/res
+com.example.weboverlay.app-camera-view-1.2.3-37 /Users/shimasarah/.gradle/caches/transforms-3/e2be2b759d15b81cad335a192c467e47/transformed/camera-view-1.2.3/res
+com.example.weboverlay.app-core-ktx-1.10.1-38 /Users/shimasarah/.gradle/caches/transforms-3/e3651d84789ec7b9fdbf97cad9cadb4f/transformed/core-ktx-1.10.1/res
+com.example.weboverlay.app-lifecycle-viewmodel-savedstate-2.6.1-39 /Users/shimasarah/.gradle/caches/transforms-3/f4df22c3d9bdcd7390fd73090265e0f7/transformed/lifecycle-viewmodel-savedstate-2.6.1/res
+com.example.weboverlay.app-activity-1.7.2-40 /Users/shimasarah/.gradle/caches/transforms-3/f96ff3c3528fa24689cc2c191df79eb4/transformed/activity-1.7.2/res
+com.example.weboverlay.app-profileinstaller-1.3.0-41 /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/res
+com.example.weboverlay.app-pngs-42 /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/build/generated/res/pngs/debug
+com.example.weboverlay.app-resValues-43 /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/build/generated/res/resValues/debug
+com.example.weboverlay.app-packageDebugResources-44 /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.weboverlay.app-packageDebugResources-45 /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.weboverlay.app-merged_res-46 /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/build/intermediates/merged_res/debug
+com.example.weboverlay.app-debug-47 /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/debug/res
+com.example.weboverlay.app-main-48 /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/res

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Xibo CMS Settings -->
+    <PreferenceCategory
+        app:key="xibo_settings"
+        app:title="Xibo CMS Settings">
+
+        <EditTextPreference
+            app:key="xibo_cms_url"
+            app:title="CMS URL"
+            app:useSimpleSummaryProvider="false"
+            app:isPreferenceVisible="true"
+            app:summary="Not set"
+            app:icon="@android:drawable/ic_menu_compass" />
+
+        <EditTextPreference
+            app:key="xibo_client_id"
+            app:title="Client ID"
+            app:useSimpleSummaryProvider="false"
+            app:summary="Not set"
+            app:icon="@android:drawable/ic_menu_sort_by_size" />
+
+        <EditTextPreference
+            app:key="xibo_client_secret"
+            app:title="Client Secret"
+            app:useSimpleSummaryProvider="false"
+            app:summary="Not visible for security"
+            app:icon="@android:drawable/ic_lock_lock" />
+
+        <EditTextPreference
+            app:key="xibo_username"
+            app:title="Username"
+            app:useSimpleSummaryProvider="false"
+            app:summary="Not set"
+            app:icon="@android:drawable/ic_menu_myplaces" />
+
+        <EditTextPreference
+            app:key="xibo_password"
+            app:title="Password"
+            app:useSimpleSummaryProvider="false"
+            app:summary="Not visible for security"
+            app:icon="@android:drawable/ic_lock_lock" />
+
+        <SwitchPreferenceCompat
+            app:key="xibo_auto_connect"
+            app:title="Auto-connect on startup"
+            app:summary="Automatically connect to Xibo CMS when the app starts"
+            app:defaultValue="true"
+            app:icon="@android:drawable/ic_popup_sync" />
+
+    </PreferenceCategory>
+
+    <!-- HDMI Capture Settings -->
+    <PreferenceCategory
+        app:key="hdmi_settings"
+        app:title="HDMI Capture Settings">
+
+        <ListPreference
+            app:key="hdmi_camera_id"
+            app:title="HDMI Input Source"
+            app:summary="Select the camera ID for HDMI input"
+            app:icon="@android:drawable/ic_menu_camera" />
+
+        <Preference
+            app:key="hdmi_resolution"
+            app:title="Resolution"
+            app:summary="1920 × 1080"
+            app:icon="@android:drawable/ic_menu_crop" />
+
+        <SwitchPreferenceCompat
+            app:key="hdmi_auto_start"
+            app:title="Auto-start capture"
+            app:summary="Automatically start HDMI capture on app launch"
+            app:defaultValue="true"
+            app:icon="@android:drawable/ic_media_play" />
+
+        <SwitchPreferenceCompat
+            app:key="hdmi_keep_aspect_ratio"
+            app:title="Maintain aspect ratio"
+            app:summary="Keep the original aspect ratio of the input"
+            app:defaultValue="true"
+            app:icon="@android:drawable/ic_dialog_dialer" />
+
+    </PreferenceCategory>
+
+    <!-- Overlay Settings -->
+    <PreferenceCategory
+        app:key="overlay_settings"
+        app:title="Overlay Settings">
+
+        <SeekBarPreference
+            app:key="overlay_position_x"
+            app:title="Horizontal Position"
+            app:summary="0%"
+            app:defaultValue="0"
+            android:min="0"
+            android:max="100"
+            app:showSeekBarValue="true"
+            app:icon="@android:drawable/ic_menu_directions" />
+
+        <SeekBarPreference
+            app:key="overlay_position_y"
+            app:title="Vertical Position"
+            app:summary="0%"
+            app:defaultValue="0"
+            android:min="0"
+            android:max="100"
+            app:showSeekBarValue="true"
+            app:icon="@android:drawable/ic_menu_directions" />
+
+        <SeekBarPreference
+            app:key="overlay_width"
+            app:title="Width"
+            app:summary="100%"
+            app:defaultValue="100"
+            android:min="10"
+            android:max="100"
+            app:showSeekBarValue="true"
+            app:icon="@android:drawable/ic_menu_crop" />
+
+        <SeekBarPreference
+            app:key="overlay_height"
+            app:title="Height"
+            app:summary="100%"
+            app:defaultValue="100"
+            android:min="10"
+            android:max="100"
+            app:showSeekBarValue="true"
+            app:icon="@android:drawable/ic_menu_crop" />
+
+        <SeekBarPreference
+            app:key="overlay_opacity"
+            app:title="Opacity"
+            app:summary="100%"
+            app:defaultValue="100"
+            android:min="0"
+            android:max="100"
+            app:showSeekBarValue="true"
+            app:icon="@android:drawable/ic_menu_gallery" />
+
+        <SwitchPreferenceCompat
+            app:key="overlay_auto_start"
+            app:title="Auto-start overlay"
+            app:summary="Automatically start overlay on app launch"
+            app:defaultValue="true"
+            app:icon="@android:drawable/ic_menu_slideshow" />
+
+    </PreferenceCategory>
+
+    <!-- Advanced Settings -->
+    <PreferenceCategory
+        app:key="advanced_settings"
+        app:title="Advanced Settings">
+
+        <SwitchPreferenceCompat
+            app:key="start_on_boot"
+            app:title="Start on boot"
+            app:summary="Automatically start the application when device boots"
+            app:defaultValue="true"
+            app:icon="@android:drawable/ic_lock_power_off" />
+
+        <SwitchPreferenceCompat
+            app:key="debug_logging"
+            app:title="Debug logging"
+            app:summary="Enable detailed logging for troubleshooting"
+            app:defaultValue="false"
+            app:icon="@android:drawable/ic_menu_info_details" />
+
+        <Preference
+            app:key="reset_settings"
+            app:title="Reset all settings"
+            app:summary="Restore all settings to default values"
+            app:icon="@android:drawable/ic_menu_revert" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
