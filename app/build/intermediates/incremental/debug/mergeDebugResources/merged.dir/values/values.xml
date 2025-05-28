@@ -2203,6 +2203,8 @@
     <string name="xibo_client_id">Client ID</string>
     <string name="xibo_client_secret">Client Secret</string>
     <string name="xibo_cms_url">CMS URL</string>
+    <string name="xibo_display_key">Display Key</string>
+    <string name="xibo_display_key_summary">Enter the Display Key from Xibo CMS</string>
     <string name="xibo_password">Password</string>
     <string name="xibo_settings">Xibo CMS Settings</string>
     <string name="xibo_username">Username</string>

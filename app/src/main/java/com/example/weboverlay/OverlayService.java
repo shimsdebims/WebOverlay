@@ -25,29 +25,23 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
 public class OverlayService extends Service {
-    private static final String TAG = "OverlayService";
-    private static final int NOTIFICATION_ID = 1001;
-    private static final String CHANNEL_ID = "overlay_service_channel";
-
+    private static final String TAG = Constants.TAG_OVERLAY;
+    
     private WindowManager windowManager;
     private FrameLayout overlayView;
     private WebView webView;
     private XiboWebClient xiboWebClient;
     private boolean isOverlayVisible = false;
 
+    // Fixed size for initial overlay window
+    private static final int INITIAL_WIDTH = 480;  // Initial width
+    private static final int INITIAL_HEIGHT = 320; // Initial height
+
     @Override
     public void onCreate() {
         super.onCreate();
         Log.d(TAG, "Service onCreate");
-    
-        // Initialize WebView and XiboWebClient
-        webView = new WebView(this);
-        String cmsUrl = "http://192.168.11.112:8080"; // Replace with your CMS URL
-        String displayKey = "ac:db:da:64:12:89"; // Replace with your Display Key
-        xiboWebClient = new XiboWebClient(this, webView, cmsUrl, displayKey);
-    
-        // Load Xibo content
-        xiboWebClient.loadContent();
+        windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
     }
 
     @Override
@@ -55,7 +49,7 @@ public class OverlayService extends Service {
         Log.d(TAG, "Service onStartCommand");
         
         createNotificationChannel();
-        startForeground(NOTIFICATION_ID, buildNotification());
+        startForeground(Constants.NOTIFICATION_ID_OVERLAY, buildNotification());
         
         initOverlay();
         
@@ -72,13 +66,20 @@ public class OverlayService extends Service {
     public void onDestroy() {
         Log.d(TAG, "Service onDestroy");
         hideOverlay();
+        
+        // Clear overlay state
+        getSharedPreferences("overlay_prefs", MODE_PRIVATE)
+            .edit()
+            .putBoolean("is_overlay_active", false)
+            .apply();
+            
         super.onDestroy();
     }
 
     private void createNotificationChannel() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel(
-                CHANNEL_ID,
+                Constants.CHANNEL_ID_OVERLAY,
                 "Overlay Service",
                 NotificationManager.IMPORTANCE_LOW
             );
@@ -100,7 +101,7 @@ public class OverlayService extends Service {
             PendingIntent.FLAG_IMMUTABLE
         );
         
-        return new NotificationCompat.Builder(this, CHANNEL_ID)
+        return new NotificationCompat.Builder(this, Constants.CHANNEL_ID_OVERLAY)
             .setContentTitle("Overlay Active")
             .setContentText("WebView overlay is currently displayed")
             .setSmallIcon(R.drawable.ic_overlay_notification)
@@ -116,10 +117,14 @@ public class OverlayService extends Service {
             
             webView = overlayView.findViewById(R.id.overlay_webview);
             if (webView != null) {
+                // Set fixed size for WebView
+                webView.getLayoutParams().width = INITIAL_WIDTH;
+                webView.getLayoutParams().height = INITIAL_HEIGHT;
+                
                 xiboWebClient = new XiboWebClient(
                     this,
                     webView,
-                    "http://192.168.11.112:8080",
+                    Constants.XIBO_CMS_URL,
                     new XiboWebClient.XiboClientListener() {
                         @Override
                         public void onLayoutLoaded(String layoutId) {
@@ -136,7 +141,7 @@ public class OverlayService extends Service {
                 );
                 
                 // Load layout
-                xiboWebClient.loadLayout("1");  // Replace with your layout ID
+                xiboWebClient.loadLayout("1");  // Use default layout ID
             }
             
             showOverlay();
@@ -150,23 +155,34 @@ public class OverlayService extends Service {
     private void showOverlay() {
         if (overlayView == null || isOverlayVisible) return;
         
+        // Create window with fixed size
         WindowManager.LayoutParams params = new WindowManager.LayoutParams(
-            WindowManager.LayoutParams.MATCH_PARENT,
-            WindowManager.LayoutParams.MATCH_PARENT,
+            INITIAL_WIDTH,  // Fixed width
+            INITIAL_HEIGHT, // Fixed height
             Build.VERSION.SDK_INT >= Build.VERSION_CODES.O
                 ? WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY
                 : WindowManager.LayoutParams.TYPE_SYSTEM_ALERT,
             WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE |
-            WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL |
-            WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
+            WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE |
+            WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
             PixelFormat.TRANSLUCENT
         );
         
-        params.gravity = Gravity.TOP | Gravity.START;
+        // Position in top-right corner initially
+        params.gravity = Gravity.TOP | Gravity.END;
+        params.x = 50;
+        params.y = 50;
         
         try {
             windowManager.addView(overlayView, params);
             isOverlayVisible = true;
+            
+            // Save overlay state
+            getSharedPreferences("overlay_prefs", MODE_PRIVATE)
+                .edit()
+                .putBoolean("is_overlay_active", true)
+                .apply();
+                
             Log.d(TAG, "Overlay shown successfully");
         } catch (Exception e) {
             Log.e(TAG, "Error showing overlay", e);

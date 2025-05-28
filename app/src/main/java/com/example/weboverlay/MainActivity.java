@@ -2,6 +2,7 @@ package com.example.weboverlay;
 
 import android.Manifest;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
@@ -15,15 +16,12 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String TAG = "MainActivity";
-    private static final int REQUEST_CAMERA_PERMISSION = 100;
-    private static final int REQUEST_OVERLAY_PERMISSION = 101;
+    private static final String TAG = Constants.TAG_MAIN;
     
     private Button btnStartOverlay;
     private Button btnStopOverlay;
@@ -42,6 +40,17 @@ public class MainActivity extends AppCompatActivity {
         
         initializeUI();
         checkPermissions();
+    }
+    
+    @Override
+    protected void onResume() {
+        super.onResume();
+        
+        // Check if overlay is actually running
+        isOverlayServiceRunning = getSharedPreferences("overlay_prefs", MODE_PRIVATE)
+            .getBoolean("is_overlay_active", false);
+        
+        updateUIState();
     }
     
     private void initializeUI() {
@@ -89,6 +98,13 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, OverlayService.class);
         startForegroundService(intent);
         isOverlayServiceRunning = true;
+        
+        // Save state
+        getSharedPreferences("overlay_prefs", MODE_PRIVATE)
+            .edit()
+            .putBoolean("is_overlay_active", true)
+            .apply();
+            
         updateUIState();
     }
     
@@ -96,6 +112,13 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, OverlayService.class);
         stopService(intent);
         isOverlayServiceRunning = false;
+        
+        // Save state
+        getSharedPreferences("overlay_prefs", MODE_PRIVATE)
+            .edit()
+            .putBoolean("is_overlay_active", false)
+            .apply();
+            
         updateUIState();
     }
     
@@ -131,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
     private void requestCameraPermission() {
         ActivityCompat.requestPermissions(this, 
             new String[]{Manifest.permission.CAMERA}, 
-            REQUEST_CAMERA_PERMISSION);
+            Constants.REQUEST_CAMERA_PERMISSION);
     }
     
     private boolean checkOverlayPermission() {
@@ -144,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
             Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
             Uri.parse("package:" + getPackageName())
         );
-        startActivityForResult(intent, REQUEST_OVERLAY_PERMISSION);
+        startActivityForResult(intent, Constants.REQUEST_OVERLAY_PERMISSION);
     }
     
     private void updateUIState() {
@@ -172,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, 
                                          @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (requestCode == REQUEST_CAMERA_PERMISSION) {
+        if (requestCode == Constants.REQUEST_CAMERA_PERMISSION) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 startCameraService();
             } else {
@@ -184,7 +207,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == REQUEST_OVERLAY_PERMISSION) {
+        if (requestCode == Constants.REQUEST_OVERLAY_PERMISSION) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 if (Settings.canDrawOverlays(this)) {
                     startOverlayService();

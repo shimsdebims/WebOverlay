@@ -4091,9 +4091,11 @@ int string xibo_auto_connect_summary 0x7f1000e8
 int string xibo_client_id 0x7f1000e9
 int string xibo_client_secret 0x7f1000ea
 int string xibo_cms_url 0x7f1000eb
-int string xibo_password 0x7f1000ec
-int string xibo_settings 0x7f1000ed
-int string xibo_username 0x7f1000ee
+int string xibo_display_key 0x7f1000ec
+int string xibo_display_key_summary 0x7f1000ed
+int string xibo_password 0x7f1000ee
+int string xibo_settings 0x7f1000ef
+int string xibo_username 0x7f1000f0
 int style AlertDialog_AppCompat 0x7f110000
 int style AlertDialog_AppCompat_Light 0x7f110001
 int style Animation_AppCompat_Dialog 0x7f110002
