@@ -40,8 +40,27 @@ public class OverlayService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.d(TAG, "Service onCreate");
-        windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
+        Log.d(TAG, "OverlayService created");
+
+        LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+        overlayView = (FrameLayout) inflater.inflate(R.layout.overlay_layout, null);
+
+        webView = overlayView.findViewById(R.id.overlay_webview);
+        if (webView != null) {
+            XiboWebClient xiboWebClient = new XiboWebClient(this, webView);
+            xiboWebClient.loadDisplayContent();
+        }
+
+        WindowManager.LayoutParams params = new WindowManager.LayoutParams(
+            WindowManager.LayoutParams.MATCH_PARENT,
+            WindowManager.LayoutParams.MATCH_PARENT,
+            WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
+            WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
+            PixelFormat.TRANSLUCENT
+        );
+
+        WindowManager windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
+        windowManager.addView(overlayView, params);
     }
 
     @Override

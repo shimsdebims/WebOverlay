@@ -16,7 +16,7 @@ import android.widget.FrameLayout;
 import androidx.webkit.WebViewClientCompat;
 
 public class XiboWebClient extends WebViewClientCompat {
-    private static final String TAG = Constants.TAG_XIBO;
+    private static final String TAG = "XiboWebClient";
     
     // Animation duration in milliseconds
     private static final long TRANSITION_DURATION = 800;
@@ -31,6 +31,7 @@ public class XiboWebClient extends WebViewClientCompat {
     private WebView secondaryWebView;
     private WebView activeWebView;
     private WebView inactiveWebView;
+    private WebView webView;
     
     private String currentLayoutId = null;
     private boolean isTransitioning = false;
@@ -56,6 +57,13 @@ public class XiboWebClient extends WebViewClientCompat {
         
         setupWebViews();
     }
+
+    public XiboWebClient(Context context, WebView webView) {
+        this.context = context;
+        this.webView = webView;
+
+        configureWebView(webView);
+    }
     
     private void setupWebViews() {
         // Configure both WebViews
@@ -69,6 +77,8 @@ public class XiboWebClient extends WebViewClientCompat {
         webView.getSettings().setAllowFileAccess(true);
         webView.getSettings().setAllowContentAccess(true);
         webView.getSettings().setMediaPlaybackRequiresUserGesture(false);
+        webView.setBackgroundColor(android.graphics.Color.TRANSPARENT);
+        webView.setLayerType(View.LAYER_TYPE_HARDWARE, null);
         webView.setWebViewClient(this);
         webView.addJavascriptInterface(new XiboJavaScriptInterface(), "AndroidXibo");
     }
@@ -114,6 +124,12 @@ public class XiboWebClient extends WebViewClientCompat {
                 listener.onTransitionStart(oldLayoutId, layoutId);
             }
         });
+    }
+
+    public void loadDisplayContent() {
+        String displayUrl = Constants.XIBO_DISPLAY_URL;
+        Log.d(TAG, "Loading display URL: " + displayUrl);
+        webView.loadUrl(displayUrl);
     }
     
     @Override
@@ -228,6 +244,11 @@ public class XiboWebClient extends WebViewClientCompat {
                     listener.onLayoutLoadFailed(currentLayoutId, error);
                 }
             });
+        }
+
+        @JavascriptInterface
+        public void onError(String error) {
+            Log.e(TAG, "Error reported from layout: " + error);
         }
     }
 }

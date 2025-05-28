@@ -358,6 +358,13 @@ public class SettingsActivity extends AppCompatActivity {
         
         @Override
         public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
+            if (key.equals("xibo_cms_url") || key.equals("xibo_display_key")) {
+                String cmsUrl = sharedPreferences.getString("xibo_cms_url", Constants.XIBO_CMS_URL);
+                String displayKey = sharedPreferences.getString("xibo_display_key", Constants.XIBO_DISPLAY_KEY);
+                Log.d(TAG, "Updated CMS URL: " + cmsUrl);
+                Log.d(TAG, "Updated Display Key: " + displayKey);
+            }
+
             // Update summaries when preferences change
             switch (key) {
                 case "xibo_cms_url":
