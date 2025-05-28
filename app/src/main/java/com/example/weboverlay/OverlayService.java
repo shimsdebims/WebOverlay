@@ -39,7 +39,15 @@ public class OverlayService extends Service {
     public void onCreate() {
         super.onCreate();
         Log.d(TAG, "Service onCreate");
-        windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
+    
+        // Initialize WebView and XiboWebClient
+        webView = new WebView(this);
+        String cmsUrl = "http://192.168.11.112:8080"; // Replace with your CMS URL
+        String displayKey = "ac:db:da:64:12:89"; // Replace with your Display Key
+        xiboWebClient = new XiboWebClient(this, webView, cmsUrl, displayKey);
+    
+        // Load Xibo content
+        xiboWebClient.loadContent();
     }
 
     @Override

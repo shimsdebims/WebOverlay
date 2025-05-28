@@ -380,6 +380,12 @@ public class SettingsActivity extends AppCompatActivity {
                         }
                     }
                     break;
+
+                case "xibo_display_key":
+                    String displayKey = sharedPreferences.getString(key, "default_display_key");
+                    Log.d(TAG, "Updated Display Key: " + displayKey);
+                    // Update the XiboWebClient instance if necessary
+                    break;
             }
         }
     }

@@ -2,111 +2,71 @@ package com.example.weboverlay;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.graphics.Bitmap;
 import android.util.Log;
-import android.webkit.WebResourceError;
-import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.webkit.JavascriptInterface;
-import android.os.Handler;
-import android.os.Looper;
+import android.webkit.WebResourceRequest;
+import android.webkit.WebResourceError;
 
-public class XiboWebClient extends WebViewClient {
+public class XiboWebClient {
     private static final String TAG = "XiboWebClient";
-    private Context context;
+    private static final String DISPLAY_URL_FORMAT = "%s/display/embed/%s";
     private WebView webView;
     private String cmsUrl;
-    private String currentLayoutId;
-    private XiboClientListener listener;
+    private String displayKey;
+    private Context context;
 
-    public interface XiboClientListener {
-        void onLayoutLoaded(String layoutId);
-        void onLayoutLoadFailed(String layoutId, String reason);
-    }
-
-    public XiboWebClient(Context context, WebView webView, String cmsUrl, XiboClientListener listener) {
+    public XiboWebClient(Context context, WebView webView, String cmsUrl, String displayKey) {
         this.context = context;
         this.webView = webView;
         this.cmsUrl = cmsUrl;
-        this.listener = listener;
+        this.displayKey = displayKey;
 
-        if (!this.cmsUrl.startsWith("http://") && !this.cmsUrl.startsWith("https://")) {
-            this.cmsUrl = "http://" + this.cmsUrl;
-        }
-        
-        configureWebView();
+        setupWebView();
     }
 
-    private void configureWebView() {
+    private void setupWebView() {
         WebSettings settings = webView.getSettings();
         settings.setJavaScriptEnabled(true);
         settings.setDomStorageEnabled(true);
-        settings.setMediaPlaybackRequiresUserGesture(false);
-        settings.setAllowFileAccess(true);
-        settings.setAllowContentAccess(true);
-        
+        settings.setLoadWithOverviewMode(true);
+        settings.setUseWideViewPort(true);
+        settings.setCacheMode(WebSettings.LOAD_DEFAULT);
+        settings.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
+
+        // Critical for transparency
         webView.setBackgroundColor(Color.TRANSPARENT);
         webView.setLayerType(WebView.LAYER_TYPE_HARDWARE, null);
-    }
 
-    public void loadLayout(String layoutId) {
-        this.currentLayoutId = layoutId;
-        
-        // Use the correct preview URL format for Xibo CMS 3.3.3
-        String previewUrl = String.format("%s/playlist/preview/%s?preview=1&isPreview=1", cmsUrl, layoutId);
-        Log.d(TAG, "Loading layout: " + previewUrl);
-        
-        new Handler(Looper.getMainLooper()).post(() -> {
-            webView.clearCache(true);
-            webView.clearHistory();
-            webView.loadUrl(previewUrl);
-        });
-    }
-
-    @Override
-    public void onPageStarted(WebView view, String url, Bitmap favicon) {
-        super.onPageStarted(view, url, favicon);
-        Log.d(TAG, "Starting to load layout page: " + url);
-    }
-
-    @Override
-    public void onPageFinished(WebView view, String url) {
-        super.onPageFinished(view, url);
-        Log.d(TAG, "Finished loading layout page: " + url);
-        
-        // Make background transparent
-        String js = "document.body.style.backgroundColor = 'transparent';" +
-                   "document.documentElement.style.backgroundColor = 'transparent';";
-        view.evaluateJavascript(js, null);
-        
-        if (listener != null && currentLayoutId != null) {
-            listener.onLayoutLoaded(currentLayoutId);
-        }
-    }
-
-    @Override
-    public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
-        super.onReceivedError(view, request, error);
-        
-        if (request.isForMainFrame() && listener != null && currentLayoutId != null) {
-            String errorDescription = "Error loading layout";
-            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
-                errorDescription = error.getDescription().toString();
+        webView.setWebViewClient(new WebViewClient() {
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                // Inject transparency CSS
+                String css = "javascript:(function() {" +
+                        "document.body.style.backgroundColor = 'transparent';" +
+                        "var style = document.createElement('style');" +
+                        "style.innerHTML = 'body { background: transparent !important; }';" +
+                        "document.head.appendChild(style);" +
+                        "})()";
+                view.evaluateJavascript(css, null);
             }
-            listener.onLayoutLoadFailed(currentLayoutId, errorDescription);
-            loadFallbackContent();
-        }
+
+            @Override
+            public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
+                Log.e(TAG, "Error loading: " + error.getDescription());
+                // Implement retry logic here if needed
+            }
+        });
     }
 
-    private void loadFallbackContent() {
-        new Handler(Looper.getMainLooper()).post(() -> {
-            String html = "<html><body style='background: transparent;'>" +
-                         "<h2 style='color: white;'>Basic Overlay Mode</h2>" +
-                         "<p style='color: white;'>Xibo content unavailable</p>" +
-                         "</body></html>";
-            webView.loadData(html, "text/html", "UTF-8");
-        });
+    public void loadContent() {
+        String displayUrl = String.format(DISPLAY_URL_FORMAT, cmsUrl, displayKey);
+        Log.d(TAG, "Loading URL: " + displayUrl);
+        webView.loadUrl(displayUrl);
+    }
+
+    public void refreshContent() {
+        webView.reload();
     }
 }
