@@ -28,6 +28,18 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     
+    // Add proper memory configuration
+    dexOptions {
+        javaMaxHeapSize "2g"
+    }
+    
+    // Add Java toolchain to ensure consistent Java version
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(17)
+        }
+    }
+    
     lint {
         abortOnError = false
     }
@@ -55,6 +67,13 @@ configurations.all {
         force 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.20'
         force 'org.jetbrains.kotlin:kotlin-stdlib-common:1.8.20'
     }
+}
+
+// Add compiler arguments to resolve JDK image issues
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs += [
+        '--add-modules', 'java.base'
+    ]
 }
 
 dependencies {

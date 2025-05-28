@@ -2,16 +2,25 @@ package com.example.weboverlay;
 
 /**
  * Constants class to hold all application-wide constant values.
- * This prevents hardcoding values throughout the application and
- * makes maintenance easier.
  */
 public class Constants {
-    
     // Log Tags
     public static final String TAG_MAIN = "WebOverlay_Main";
     public static final String TAG_CAMERA = "WebOverlay_Camera";
     public static final String TAG_OVERLAY = "WebOverlay_Overlay";
     public static final String TAG_XIBO = "WebOverlay_Xibo";
+    
+    // Xibo CMS Configuration
+    public static final String XIBO_CMS_URL = "http://192.168.11.112:8080";
+    public static final String XIBO_DISPLAY_KEY = "ac:db:da:64:12:89";
+    public static final String XIBO_DISPLAY_URL = XIBO_CMS_URL + "/display/index/" + XIBO_DISPLAY_KEY;
+    public static final String XIBO_EMBED_URL = XIBO_CMS_URL + "/display/embed/" + XIBO_DISPLAY_KEY;
+    
+    // Service Configuration
+    public static final String CHANNEL_ID_CAMERA = "camera_service_channel";
+    public static final String CHANNEL_ID_OVERLAY = "overlay_service_channel";
+    public static final int NOTIFICATION_ID_CAMERA = 1001;
+    public static final int NOTIFICATION_ID_OVERLAY = 1002;
     
     // Camera Error Codes (matching Android Camera2 API constants)
     public static final class CameraError {
@@ -30,14 +39,6 @@ public class Constants {
         public static final int STATE_WAITING_NON_PRECAPTURE = 3;
         public static final int STATE_PICTURE_TAKEN = 4;
     }
-    
-    // Notification IDs
-    public static final int NOTIFICATION_ID_OVERLAY = 1001;
-    public static final int NOTIFICATION_ID_CAMERA = 1002;
-    
-    // Notification Channel IDs
-    public static final String CHANNEL_ID_OVERLAY = "overlay_service_channel";
-    public static final String CHANNEL_ID_CAMERA = "camera_service_channel";
     
     // Default Camera Settings
     public static final class CameraDefaults {
@@ -108,5 +109,7 @@ public class Constants {
     
     // Connection Monitoring
     public static final long CONNECTION_CHECK_INTERVAL = 30000; // 30 seconds
+    
+    // WebView Configuration
+    public static final boolean ALLOW_SELF_SIGNED_CERTS = true; // Only for development
 }
-

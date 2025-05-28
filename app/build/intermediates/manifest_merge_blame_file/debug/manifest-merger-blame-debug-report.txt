@@ -42,12 +42,12 @@
 28-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:21:22-78
 29
 30    <queries>
-30-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:22:5-26:15
+30-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:22:5-26:15
 31        <intent>
-31-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:23:9-25:18
+31-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:23:9-25:18
 32            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
-32-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:24:13-86
-32-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:24:21-83
+32-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:24:13-86
+32-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:24:21-83
 33        </intent>
 34    </queries>
 35
@@ -165,104 +165,104 @@
 99        </receiver>
 100
 101        <uses-library
-101-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:29:9-31:40
+101-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:29:9-31:40
 102            android:name="androidx.camera.extensions.impl"
-102-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:30:13-59
+102-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:30:13-59
 103            android:required="false" />
-103-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:31:13-37
+103-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:31:13-37
 104
 105        <service
-105-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:24:9-33:19
+105-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:24:9-33:19
 106            android:name="androidx.camera.core.impl.MetadataHolderService"
-106-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:25:13-75
+106-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:25:13-75
 107            android:enabled="false"
-107-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:26:13-36
+107-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:26:13-36
 108            android:exported="false" >
-108-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:27:13-37
+108-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:27:13-37
 109            <meta-data
-109-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:30:13-32:89
+109-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:30:13-32:89
 110                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-110-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:31:17-103
+110-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:31:17-103
 111                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-111-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:32:17-86
+111-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:32:17-86
 112        </service>
 113
 114        <provider
-114-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+114-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 115            android:name="androidx.startup.InitializationProvider"
-115-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+115-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
 116            android:authorities="com.example.weboverlay.androidx-startup"
-116-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+116-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 117            android:exported="false" >
-117-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+117-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
 118            <meta-data
-118-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+118-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 119                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-119-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+119-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 120                android:value="androidx.startup" />
-120-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+120-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
 121            <meta-data
-121-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+121-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
 122                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-122-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+122-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
 123                android:value="androidx.startup" />
-123-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+123-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
 124            <meta-data
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 125                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-125-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
 126                android:value="androidx.startup" />
-126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
 127        </provider>
 128
 129        <uses-library
-129-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+129-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
 130            android:name="androidx.window.extensions"
-130-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+130-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
 131            android:required="false" />
-131-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+131-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
 132        <uses-library
-132-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+132-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
 133            android:name="androidx.window.sidecar"
-133-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+133-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
 134            android:required="false" />
-134-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+134-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
 135
 136        <receiver
-136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
 137            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
 138            android:directBootAware="false"
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
 139            android:enabled="true"
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
 140            android:exported="true"
-140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
 141            android:permission="android.permission.DUMP" >
-141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 142            <intent-filter>
-142-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
 143                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 144            </intent-filter>
 145            <intent-filter>
-145-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
 146                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
 147            </intent-filter>
 148            <intent-filter>
-148-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+148-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
 149                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-149-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-149-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
 150            </intent-filter>
 151            <intent-filter>
-151-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
 152                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-152-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-152-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
 153            </intent-filter>
 154        </receiver>
 155    </application>

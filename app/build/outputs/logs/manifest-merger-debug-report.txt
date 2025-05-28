@@ -4,27 +4,27 @@ ADDED from /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverla
 INJECTED from /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:2:1-80:12
 INJECTED from /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:2:1-80:12
 INJECTED from /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:2:1-80:12
-MERGED from [androidx.databinding:viewbinding:8.1.0] /Users/shimasarah/.gradle/caches/transforms-3/b100e96862aa73b4a52f697b9a1b20ba/transformed/viewbinding-8.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:viewbinding:8.1.0] /Users/shimasarah/.gradle/caches/transforms-3/26044b2dc6bca2a7c30af66f69e2a10e/transformed/jetified-viewbinding-8.1.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.9.0] /Users/shimasarah/.gradle/caches/transforms-3/8a34df234dde28e808011cb39171291e/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/shimasarah/.gradle/caches/transforms-3/395d71d697a2819f71d941e83c2d5fe8/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.preference:preference:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/c642d1b6d32ecb7d29c930f789616aee/transformed/preference-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.camera:camera-view:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/e2be2b759d15b81cad335a192c467e47/transformed/camera-view-1.2.3/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/02c79a38475b260640d094e77a2b2c56/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-view:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/d4a15cfcb00d986ae9b019e34b166460/transformed/jetified-camera-view-1.2.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/a6e5f6212cc01c97226962f50ee2288b/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/38fdf4e56534b3c4c6a8297bf7eeddee/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/shimasarah/.gradle/caches/transforms-3/836b5a655fa346de50c408e12bac5489/transformed/recyclerview-1.3.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/shimasarah/.gradle/caches/transforms-3/94625e9adf76b68b64b5a9393eec559a/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.fragment:fragment-ktx:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/1f7bb41dc304320cfe3285fc4457c4ea/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/shimasarah/.gradle/caches/transforms-3/24d8c27b9d89ea399a191c23392817f3/transformed/jetified-viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/195b8dceed82afda727d6f32a488bb34/transformed/jetified-fragment-ktx-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/99ca0e04924790d587dd80e4f2a7971d/transformed/fragment-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/shimasarah/.gradle/caches/transforms-3/36f9050b05aba6e6804438b4c6f8b10a/transformed/activity-ktx-1.7.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.7.2] /Users/shimasarah/.gradle/caches/transforms-3/f96ff3c3528fa24689cc2c191df79eb4/transformed/activity-1.7.2/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:17:1-34:12
-MERGED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:17:1-36:12
-MERGED from [androidx.camera:camera-lifecycle:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/bc2910afc22e4a06940c2a4073b98d2e/transformed/camera-lifecycle-1.2.3/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/6267fae8c7df031dbcdad7f0efb86bf8/transformed/camera-core-1.2.3/AndroidManifest.xml:17:1-36:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/aeb0f0d790cc2bb2c39fde0c88c87687/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/a2daf81b4fcdb9411407370aab802473/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.core:core-ktx:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/e3651d84789ec7b9fdbf97cad9cadb4f/transformed/core-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/shimasarah/.gradle/caches/transforms-3/dbde0eed8ce7e09f5e4970cbdbfe2c5a/transformed/jetified-activity-ktx-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.7.2] /Users/shimasarah/.gradle/caches/transforms-3/73b74891f273b372b6d2311a979a59e6/transformed/jetified-activity-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:17:1-34:12
+MERGED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-lifecycle:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5d5ee95a31ce32034f365ce46eeb689b/transformed/jetified-camera-lifecycle-1.2.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/39421f21e7aa33a7bdade7018f6d0746/transformed/jetified-camera-core-1.2.3/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/8fcc853f08bc42045cd980d63acc7c5a/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/90dbda2796d0082100feb9bfc0838eaa/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/06b34b2ea60f337f44fa754f6661de0e/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/1743650eff319645d518a855bfe1fe5a/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/16d49e6813d7c6aef7e67bde9a0987a7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/85bca364794f8d628710ba163dcadda2/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -36,27 +36,27 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/shimasarah/.gr
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/5faf4f37a2464b5e2559ef5de2aa12e8/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/shimasarah/.gradle/caches/transforms-3/e691780b60fbd82fe9bef3ba34a4f1e1/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.4.1] /Users/shimasarah/.gradle/caches/transforms-3/be6c02f4dc80936641727f0e2c745f46/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/shimasarah/.gradle/caches/transforms-3/dc0b633bb9c86c4d862bb6470002309b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/shimasarah/.gradle/caches/transforms-3/a562fd5ab5c81cddcd101a43f3b48c00/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/e07779babc2cb85dcdbe8788d188cfb4/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/0d6667805ba95a97b1265f962f4f9360/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/ca7e140cc58d5f762da81c9f472987b6/transformed/lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/shimasarah/.gradle/caches/transforms-3/6923c33008ee5d80c37c6a2444678921/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/shimasarah/.gradle/caches/transforms-3/90d8c277878f3e93aea5f5378d390fb3/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/962357671c94b44a1f143bbe3c303560/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/09d463d6a052fd92b03e0e06925e492f/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/789e61ab562659884336bd1da615ab29/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/1b340f1aca83c1e882ac68b79d8d0df7/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/59be872dd741da2aefad29199a5c688e/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/4d1da6a6161390c1e21c57807d5a91b4/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/8eec3305fa08ab6c364850fac4f2f3da/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/f4df22c3d9bdcd7390fd73090265e0f7/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ab5897bac2b522502e373a21237ed7a0/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/c6b758a0250d1d72a62de869337013f9/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/7d240c2876715f64c8f86f348098b6d9/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/c8bdece1432d6bd447ee6e396aae1f67/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/a3361067d52275e58bda1185bd0e0722/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/b21884de3c1fed91191658c9c59e73bb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/738310a87d9925967294fafc069fcc67/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/4573a54a4cb907959ef8ca8349b0a217/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bbd9c781d8ed505f6d32acbb52daf965/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/0d338db99dbee4b2179b8774b799ae6a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/85cd030943f9498f5b64cfe78341395f/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/shimasarah/.gradle/caches/transforms-3/d4c59bd9210ecc79c0b9d6f2393b2a4a/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/shimasarah/.gradle/caches/transforms-3/a6a435077cb31d31d070b99d6468b1e9/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/b7916a1392bbb1cace393bfa310f2e1c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -105,26 +105,26 @@ MERGED from [com.google.android.material:material:1.9.0] /Users/shimasarah/.grad
 MERGED from [com.google.android.material:material:1.9.0] /Users/shimasarah/.gradle/caches/transforms-3/8a34df234dde28e808011cb39171291e/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/shimasarah/.gradle/caches/transforms-3/395d71d697a2819f71d941e83c2d5fe8/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/shimasarah/.gradle/caches/transforms-3/395d71d697a2819f71d941e83c2d5fe8/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
-MERGED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:28:5-32:19
-MERGED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:28:5-32:19
-MERGED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/6267fae8c7df031dbcdad7f0efb86bf8/transformed/camera-core-1.2.3/AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/6267fae8c7df031dbcdad7f0efb86bf8/transformed/camera-core-1.2.3/AndroidManifest.xml:23:5-34:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:28:5-32:19
+MERGED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:28:5-32:19
+MERGED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/39421f21e7aa33a7bdade7018f6d0746/transformed/jetified-camera-core-1.2.3/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/39421f21e7aa33a7bdade7018f6d0746/transformed/jetified-camera-core-1.2.3/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/b21884de3c1fed91191658c9c59e73bb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/b21884de3c1fed91191658c9c59e73bb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/4573a54a4cb907959ef8ca8349b0a217/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/4573a54a4cb907959ef8ca8349b0a217/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/0d338db99dbee4b2179b8774b799ae6a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/0d338db99dbee4b2179b8774b799ae6a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
@@ -215,48 +215,48 @@ uses-sdk
 INJECTED from /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml
 INJECTED from /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml
-MERGED from [androidx.databinding:viewbinding:8.1.0] /Users/shimasarah/.gradle/caches/transforms-3/b100e96862aa73b4a52f697b9a1b20ba/transformed/viewbinding-8.1.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.databinding:viewbinding:8.1.0] /Users/shimasarah/.gradle/caches/transforms-3/b100e96862aa73b4a52f697b9a1b20ba/transformed/viewbinding-8.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.0] /Users/shimasarah/.gradle/caches/transforms-3/26044b2dc6bca2a7c30af66f69e2a10e/transformed/jetified-viewbinding-8.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.0] /Users/shimasarah/.gradle/caches/transforms-3/26044b2dc6bca2a7c30af66f69e2a10e/transformed/jetified-viewbinding-8.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.9.0] /Users/shimasarah/.gradle/caches/transforms-3/8a34df234dde28e808011cb39171291e/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.9.0] /Users/shimasarah/.gradle/caches/transforms-3/8a34df234dde28e808011cb39171291e/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/shimasarah/.gradle/caches/transforms-3/395d71d697a2819f71d941e83c2d5fe8/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/shimasarah/.gradle/caches/transforms-3/395d71d697a2819f71d941e83c2d5fe8/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.preference:preference:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/c642d1b6d32ecb7d29c930f789616aee/transformed/preference-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.preference:preference:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/c642d1b6d32ecb7d29c930f789616aee/transformed/preference-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.camera:camera-view:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/e2be2b759d15b81cad335a192c467e47/transformed/camera-view-1.2.3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-view:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/e2be2b759d15b81cad335a192c467e47/transformed/camera-view-1.2.3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/02c79a38475b260640d094e77a2b2c56/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/02c79a38475b260640d094e77a2b2c56/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-view:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/d4a15cfcb00d986ae9b019e34b166460/transformed/jetified-camera-view-1.2.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-view:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/d4a15cfcb00d986ae9b019e34b166460/transformed/jetified-camera-view-1.2.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/a6e5f6212cc01c97226962f50ee2288b/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/a6e5f6212cc01c97226962f50ee2288b/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/38fdf4e56534b3c4c6a8297bf7eeddee/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/38fdf4e56534b3c4c6a8297bf7eeddee/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/shimasarah/.gradle/caches/transforms-3/836b5a655fa346de50c408e12bac5489/transformed/recyclerview-1.3.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/shimasarah/.gradle/caches/transforms-3/836b5a655fa346de50c408e12bac5489/transformed/recyclerview-1.3.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/shimasarah/.gradle/caches/transforms-3/94625e9adf76b68b64b5a9393eec559a/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/shimasarah/.gradle/caches/transforms-3/94625e9adf76b68b64b5a9393eec559a/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/1f7bb41dc304320cfe3285fc4457c4ea/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment-ktx:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/1f7bb41dc304320cfe3285fc4457c4ea/transformed/fragment-ktx-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/shimasarah/.gradle/caches/transforms-3/24d8c27b9d89ea399a191c23392817f3/transformed/jetified-viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/shimasarah/.gradle/caches/transforms-3/24d8c27b9d89ea399a191c23392817f3/transformed/jetified-viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/195b8dceed82afda727d6f32a488bb34/transformed/jetified-fragment-ktx-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/195b8dceed82afda727d6f32a488bb34/transformed/jetified-fragment-ktx-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/99ca0e04924790d587dd80e4f2a7971d/transformed/fragment-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.6.1] /Users/shimasarah/.gradle/caches/transforms-3/99ca0e04924790d587dd80e4f2a7971d/transformed/fragment-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/shimasarah/.gradle/caches/transforms-3/36f9050b05aba6e6804438b4c6f8b10a/transformed/activity-ktx-1.7.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/shimasarah/.gradle/caches/transforms-3/36f9050b05aba6e6804438b4c6f8b10a/transformed/activity-ktx-1.7.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.7.2] /Users/shimasarah/.gradle/caches/transforms-3/f96ff3c3528fa24689cc2c191df79eb4/transformed/activity-1.7.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.7.2] /Users/shimasarah/.gradle/caches/transforms-3/f96ff3c3528fa24689cc2c191df79eb4/transformed/activity-1.7.2/AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-lifecycle:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/bc2910afc22e4a06940c2a4073b98d2e/transformed/camera-lifecycle-1.2.3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-lifecycle:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/bc2910afc22e4a06940c2a4073b98d2e/transformed/camera-lifecycle-1.2.3/AndroidManifest.xml:20:5-44
-MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/6267fae8c7df031dbcdad7f0efb86bf8/transformed/camera-core-1.2.3/AndroidManifest.xml:21:5-44
-MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/6267fae8c7df031dbcdad7f0efb86bf8/transformed/camera-core-1.2.3/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/aeb0f0d790cc2bb2c39fde0c88c87687/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/aeb0f0d790cc2bb2c39fde0c88c87687/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/a2daf81b4fcdb9411407370aab802473/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/a2daf81b4fcdb9411407370aab802473/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
-MERGED from [androidx.core:core-ktx:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/e3651d84789ec7b9fdbf97cad9cadb4f/transformed/core-ktx-1.10.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/e3651d84789ec7b9fdbf97cad9cadb4f/transformed/core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/shimasarah/.gradle/caches/transforms-3/dbde0eed8ce7e09f5e4970cbdbfe2c5a/transformed/jetified-activity-ktx-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/shimasarah/.gradle/caches/transforms-3/dbde0eed8ce7e09f5e4970cbdbfe2c5a/transformed/jetified-activity-ktx-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] /Users/shimasarah/.gradle/caches/transforms-3/73b74891f273b372b6d2311a979a59e6/transformed/jetified-activity-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] /Users/shimasarah/.gradle/caches/transforms-3/73b74891f273b372b6d2311a979a59e6/transformed/jetified-activity-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5d5ee95a31ce32034f365ce46eeb689b/transformed/jetified-camera-lifecycle-1.2.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5d5ee95a31ce32034f365ce46eeb689b/transformed/jetified-camera-lifecycle-1.2.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/39421f21e7aa33a7bdade7018f6d0746/transformed/jetified-camera-core-1.2.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/39421f21e7aa33a7bdade7018f6d0746/transformed/jetified-camera-core-1.2.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/8fcc853f08bc42045cd980d63acc7c5a/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/8fcc853f08bc42045cd980d63acc7c5a/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/90dbda2796d0082100feb9bfc0838eaa/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/90dbda2796d0082100feb9bfc0838eaa/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/06b34b2ea60f337f44fa754f6661de0e/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/06b34b2ea60f337f44fa754f6661de0e/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/1743650eff319645d518a855bfe1fe5a/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/1743650eff319645d518a855bfe1fe5a/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/16d49e6813d7c6aef7e67bde9a0987a7/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
@@ -279,22 +279,22 @@ MERGED from [androidx.customview:customview:1.1.0] /Users/shimasarah/.gradle/cac
 MERGED from [androidx.customview:customview:1.1.0] /Users/shimasarah/.gradle/caches/transforms-3/e691780b60fbd82fe9bef3ba34a4f1e1/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.4.1] /Users/shimasarah/.gradle/caches/transforms-3/be6c02f4dc80936641727f0e2c745f46/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.4.1] /Users/shimasarah/.gradle/caches/transforms-3/be6c02f4dc80936641727f0e2c745f46/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/shimasarah/.gradle/caches/transforms-3/dc0b633bb9c86c4d862bb6470002309b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/shimasarah/.gradle/caches/transforms-3/dc0b633bb9c86c4d862bb6470002309b/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/shimasarah/.gradle/caches/transforms-3/a562fd5ab5c81cddcd101a43f3b48c00/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/shimasarah/.gradle/caches/transforms-3/a562fd5ab5c81cddcd101a43f3b48c00/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/e07779babc2cb85dcdbe8788d188cfb4/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/e07779babc2cb85dcdbe8788d188cfb4/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/0d6667805ba95a97b1265f962f4f9360/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/0d6667805ba95a97b1265f962f4f9360/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/ca7e140cc58d5f762da81c9f472987b6/transformed/lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/ca7e140cc58d5f762da81c9f472987b6/transformed/lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/shimasarah/.gradle/caches/transforms-3/6923c33008ee5d80c37c6a2444678921/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/shimasarah/.gradle/caches/transforms-3/6923c33008ee5d80c37c6a2444678921/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/shimasarah/.gradle/caches/transforms-3/90d8c277878f3e93aea5f5378d390fb3/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/shimasarah/.gradle/caches/transforms-3/90d8c277878f3e93aea5f5378d390fb3/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/962357671c94b44a1f143bbe3c303560/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/962357671c94b44a1f143bbe3c303560/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/09d463d6a052fd92b03e0e06925e492f/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/09d463d6a052fd92b03e0e06925e492f/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/789e61ab562659884336bd1da615ab29/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/789e61ab562659884336bd1da615ab29/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/1b340f1aca83c1e882ac68b79d8d0df7/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/1b340f1aca83c1e882ac68b79d8d0df7/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/59be872dd741da2aefad29199a5c688e/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
@@ -303,10 +303,10 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/shimasarah/.gr
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/4d1da6a6161390c1e21c57807d5a91b4/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/8eec3305fa08ab6c364850fac4f2f3da/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/8eec3305fa08ab6c364850fac4f2f3da/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/f4df22c3d9bdcd7390fd73090265e0f7/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/f4df22c3d9bdcd7390fd73090265e0f7/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ab5897bac2b522502e373a21237ed7a0/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ab5897bac2b522502e373a21237ed7a0/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/c6b758a0250d1d72a62de869337013f9/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/c6b758a0250d1d72a62de869337013f9/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/7d240c2876715f64c8f86f348098b6d9/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/7d240c2876715f64c8f86f348098b6d9/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/c8bdece1432d6bd447ee6e396aae1f67/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/c8bdece1432d6bd447ee6e396aae1f67/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/a3361067d52275e58bda1185bd0e0722/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
@@ -315,12 +315,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shim
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/b21884de3c1fed91191658c9c59e73bb/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/738310a87d9925967294fafc069fcc67/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/738310a87d9925967294fafc069fcc67/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/4573a54a4cb907959ef8ca8349b0a217/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/4573a54a4cb907959ef8ca8349b0a217/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bbd9c781d8ed505f6d32acbb52daf965/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bbd9c781d8ed505f6d32acbb52daf965/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/0d338db99dbee4b2179b8774b799ae6a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/0d338db99dbee4b2179b8774b799ae6a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/85cd030943f9498f5b64cfe78341395f/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/85cd030943f9498f5b64cfe78341395f/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/shimasarah/.gradle/caches/transforms-3/d4c59bd9210ecc79c0b9d6f2393b2a4a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/shimasarah/.gradle/caches/transforms-3/d4c59bd9210ecc79c0b9d6f2393b2a4a/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/shimasarah/.gradle/caches/transforms-3/a6a435077cb31d31d070b99d6468b1e9/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
@@ -336,73 +336,73 @@ MERGED from [androidx.print:print:1.0.0] /Users/shimasarah/.gradle/caches/transf
 	android:minSdkVersion
 		INJECTED from /Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml
 queries
-ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:22:5-26:15
+ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:22:5-26:15
 intent#action:name:androidx.camera.extensions.action.VENDOR_ACTION
-ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:23:9-25:18
+ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:23:9-25:18
 action#androidx.camera.extensions.action.VENDOR_ACTION
-ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:24:13-86
+ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:24:13-86
 	android:name
-		ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:24:21-83
+		ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:24:21-83
 uses-library#androidx.camera.extensions.impl
-ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:29:9-31:40
+ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:29:9-31:40
 	android:required
-		ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:31:13-37
+		ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/5df5a52cecc8393d6aa3285d0ac8d84a/transformed/camera-extensions-1.2.3/AndroidManifest.xml:30:13-59
+		ADDED from [androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:30:13-59
 service#androidx.camera.core.impl.MetadataHolderService
-ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:24:9-33:19
-MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/6267fae8c7df031dbcdad7f0efb86bf8/transformed/camera-core-1.2.3/AndroidManifest.xml:29:9-33:78
-MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/6267fae8c7df031dbcdad7f0efb86bf8/transformed/camera-core-1.2.3/AndroidManifest.xml:29:9-33:78
+ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/39421f21e7aa33a7bdade7018f6d0746/transformed/jetified-camera-core-1.2.3/AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/39421f21e7aa33a7bdade7018f6d0746/transformed/jetified-camera-core-1.2.3/AndroidManifest.xml:29:9-33:78
 	tools:node
-		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:29:13-31
+		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:29:13-31
 	android:enabled
-		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:26:13-36
+		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:26:13-36
 	android:exported
-		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:27:13-37
 	tools:ignore
-		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:28:13-75
+		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:28:13-75
 	android:name
-		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:25:13-75
+		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:25:13-75
 meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
-ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:30:13-32:89
+ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:30:13-32:89
 	android:value
-		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:32:17-86
+		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:32:17-86
 	android:name
-		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/565eebbd092a8113f5633f4feea2ae9c/transformed/camera-camera2-1.2.3/AndroidManifest.xml:31:17-103
+		ADDED from [androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:31:17-103
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/4573a54a4cb907959ef8ca8349b0a217/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/4573a54a4cb907959ef8ca8349b0a217/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/0d338db99dbee4b2179b8774b799ae6a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/shimasarah/.gradle/caches/transforms-3/0d338db99dbee4b2179b8774b799ae6a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/1b9996c08011e841824064a663be72df/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+ADDED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+		ADDED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
 uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+ADDED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+		ADDED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/0900d8d79632a05eaa01f673d7e179d5/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+		ADDED from [androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
@@ -424,50 +424,50 @@ ADDED from [androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transfor
 	android:name
 		ADDED from [androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/914a02d4ef33b4a2d3f9bc481d83e7fc/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/ffb0329a3fb69eb4cdd5ec3d8e97f80d/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

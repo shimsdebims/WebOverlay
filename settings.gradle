@@ -11,8 +11,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        // For older dependencies that might be required
-        jcenter()
+        // jcenter() is deprecated and has been removed
     }
 }
 

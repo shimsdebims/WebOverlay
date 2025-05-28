@@ -1,66 +1,62 @@
 [
     {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/drawable_ic_menu_main.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/drawable/ic_menu_main.xml"
+        "merged": "com.example.weboverlay.app-merged_res-46:/drawable_ic_notification.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/drawable/ic_notification.xml"
     },
     {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.weboverlay.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.weboverlay.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/menu_main_menu.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/menu/main_menu.xml"
+        "merged": "com.example.weboverlay.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/layout_settings_activity.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/layout/settings_activity.xml"
+        "merged": "com.example.weboverlay.app-merged_res-46:/drawable_ic_camera_notification.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/drawable/ic_camera_notification.xml"
     },
     {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/drawable_overlay_background.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/drawable/overlay_background.xml"
+        "merged": "com.example.weboverlay.app-merged_res-46:/drawable_ic_menu_main.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/drawable/ic_menu_main.xml"
     },
     {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/layout_overlay_layout.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/layout/overlay_layout.xml"
-    },
-    {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/drawable_ic_notification.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/drawable/ic_notification.xml"
-    },
-    {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/drawable/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/drawable_ic_camera_notification.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/drawable/ic_camera_notification.xml"
-    },
-    {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/drawable_ic_overlay_notification.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/drawable/ic_overlay_notification.xml"
-    },
-    {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/drawable_ic_hdmi.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/drawable/ic_hdmi.xml"
-    },
-    {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/layout_activity_main.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/layout/activity_main.xml"
+        "merged": "com.example.weboverlay.app-merged_res-46:/layout_settings_activity.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/layout/settings_activity.xml"
     },
     {
         "merged": "com.example.weboverlay.app-merged_res-46:/layout_overlay_layout.xml.flat",
         "source": "com.example.weboverlay.app-main-48:/layout/overlay_layout.xml"
     },
     {
-        "merged": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-merged_res-46:/xml_settings_activity.xml.flat",
-        "source": "/Users/shimasarah/.gradle/daemon/8.5/com.example.weboverlay.app-main-48:/xml/settings_activity.xml"
+        "merged": "com.example.weboverlay.app-merged_res-46:/drawable_ic_hdmi.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/drawable/ic_hdmi.xml"
+    },
+    {
+        "merged": "com.example.weboverlay.app-merged_res-46:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.weboverlay.app-merged_res-46:/drawable_ic_overlay_notification.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/drawable/ic_overlay_notification.xml"
+    },
+    {
+        "merged": "com.example.weboverlay.app-merged_res-46:/layout_activity_main.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.weboverlay.app-merged_res-46:/xml_settings_activity.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/xml/settings_activity.xml"
+    },
+    {
+        "merged": "com.example.weboverlay.app-merged_res-46:/drawable_overlay_background.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/drawable/overlay_background.xml"
+    },
+    {
+        "merged": "com.example.weboverlay.app-merged_res-46:/menu_main_menu.xml.flat",
+        "source": "com.example.weboverlay.app-main-48:/menu/main_menu.xml"
     }
 ]
