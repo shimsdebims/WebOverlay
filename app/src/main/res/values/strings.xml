@@ -34,6 +34,8 @@
     <string name="xibo_auto_connect_summary">Automatically connect to Xibo CMS when the app starts</string>
     <string name="client_secret_summary">Not visible for security</string>
     <string name="password_summary">Not visible for security</string>
+    <string name="xibo_display_key">Display Key</string>
+    <string name="xibo_display_key_summary">Enter the Display Key from Xibo CMS</string>
     
     <!-- HDMI Capture Settings Category -->
     <string name="hdmi_settings">HDMI Capture Settings</string>
@@ -89,5 +91,7 @@
     <string name="overlay_permission_message">This app needs permission to display over other apps for the overlay functionality.</string>
     <string name="grant_permission">Grant Permission</string>
     <string name="cancel">Cancel</string>
+
+    
 </resources>
 
