@@ -228,10 +228,6 @@
     <attr format="dimension" name="height"/>
     <attr format="reference" name="hideMotionSpec"/>
     <attr format="boolean" name="hideNavigationIcon"/>
-    <attr format="enum" name="implementationMode">
-        <enum name="performance" value="0"/>
-        <enum name="compatible" value="1"/>
-    </attr>
     <attr format="boolean" name="isLightTheme"/>
     <attr format="boolean" name="isMaterial3DynamicColorApplied"/>
     <attr format="boolean" name="isMaterial3Theme"/>
@@ -508,14 +504,6 @@
     <attr format="integer" name="quantizeMotionSteps"/>
     <attr format="reference" name="recyclerViewStyle"/>
     <attr format="color" name="rippleColor"/>
-    <attr format="enum" name="scaleType">
-        <enum name="fillStart" value="0"/>
-        <enum name="fillCenter" value="1"/>
-        <enum name="fillEnd" value="2"/>
-        <enum name="fitStart" value="3"/>
-        <enum name="fitCenter" value="4"/>
-        <enum name="fitEnd" value="5"/>
-    </attr>
     <attr format="color|reference" name="scrimBackground"/>
     <attr format="boolean" name="selectionRequired"/>
     <attr format="reference" name="shapeAppearanceCornerExtraLarge"/>
@@ -649,10 +637,12 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="accent">#00ED64</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="androidx_core_ripple_material_light">#1f000000</color>
     <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
+    <color name="background">#061621</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
@@ -665,18 +655,10 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="call_notification_answer_color">#1d873b</color>
-    <color name="call_notification_decline_color">#d93025</color>
     <color name="cardview_dark_background">#FF424242</color>
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorBackground">#FFFFFF</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorText">#212121</color>
-    <color name="colorTextSecondary">#757575</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
     <color name="design_dark_default_color_error">#CF6679</color>
@@ -716,6 +698,7 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="error">#CF6679</color>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
@@ -962,6 +945,8 @@
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="preference_fallback_accent_color">#ff008577</color>
+    <color name="primary">#00ED64</color>
+    <color name="primary_dark">#00CA54</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -976,10 +961,17 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="status_error">#CF6679</color>
+    <color name="status_success">#00ED64</color>
+    <color name="status_warning">#FFB020</color>
+    <color name="surface">#0E1F2C</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="text_hint">#80FFFFFF</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
@@ -1810,7 +1802,6 @@
     <item name="ghost_view" type="id"/>
     <item name="ghost_view_holder" type="id"/>
     <item name="home" type="id"/>
-    <item name="is_pooling_container_tag" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
@@ -1831,13 +1822,11 @@
     <item name="navigation_bar_item_large_label_view" type="id"/>
     <item name="navigation_bar_item_small_label_view" type="id"/>
     <item name="parent_matrix" type="id"/>
-    <item name="pooling_container_listener_holder_tag" type="id"/>
     <item name="preferences_detail" type="id"/>
     <item name="preferences_header" type="id"/>
     <item name="preferences_sliding_pane_layout" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
-    <item name="report_drawn" type="id"/>
     <item name="row_index_key" type="id"/>
     <item name="save_non_transition_alpha" type="id"/>
     <item name="save_overlay_view" type="id"/>
@@ -1995,13 +1984,6 @@
     <string description="A description of an action that a user of an accessibility service can perform to expand a bottomsheet halfway to its full height. [CHAR LIMIT=25]" name="bottomsheet_action_expand_halfway">Expand halfway</string>
     <string description="An accessibility feedback when the bottom sheet drag handle is clicked [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
     <string description="The content description of bottom sheet drag handles [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_content_description">Drag handle</string>
-    <string name="call_notification_answer_action">Answer</string>
-    <string name="call_notification_answer_video_action">Video</string>
-    <string name="call_notification_decline_action">Decline</string>
-    <string name="call_notification_hang_up_action">Hang Up</string>
-    <string name="call_notification_incoming_text">Incoming call</string>
-    <string name="call_notification_ongoing_text">Ongoing call</string>
-    <string name="call_notification_screening_text">Screening an incoming call</string>
     <string name="camera_notification_text">Capturing HDMI input</string>
     <string name="camera_notification_title">HDMI Capture Active</string>
     <string name="camera_permission_required">Camera permission is required for HDMI capture</string>
@@ -2229,11 +2211,12 @@
     <item name="android:windowEnterAnimation">@anim/mtrl_bottom_sheet_slide_in</item>
     <item name="android:windowExitAnimation">@anim/mtrl_bottom_sheet_slide_out</item>
   </style>
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
-        
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -12903,10 +12886,6 @@
         <attr format="reference" name="switchPreferenceCompatStyle"/>
         
         <attr format="reference" name="seekBarPreferenceStyle"/>
-    </declare-styleable>
-    <declare-styleable name="PreviewView">
-        <attr name="scaleType"/>
-        <attr name="implementationMode"/>
     </declare-styleable>
     <declare-styleable name="PropertySet">
         

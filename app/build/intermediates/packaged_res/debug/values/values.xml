@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorBackground">#FFFFFF</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorText">#212121</color>
-    <color name="colorTextSecondary">#757575</color>
+    <color name="accent">#00ED64</color>
+    <color name="background">#061621</color>
+    <color name="error">#CF6679</color>
+    <color name="primary">#00ED64</color>
+    <color name="primary_dark">#00CA54</color>
+    <color name="status_error">#CF6679</color>
+    <color name="status_success">#00ED64</color>
+    <color name="status_warning">#FFB020</color>
+    <color name="surface">#0E1F2C</color>
+    <color name="text_hint">#80FFFFFF</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
     <string name="advanced_settings">Advanced Settings</string>
     <string name="app_name">HDMI Overlay</string>
     <string name="app_title">HDMI Capture &amp; Overlay</string>
@@ -76,10 +82,11 @@
     <string name="xibo_password">Password</string>
     <string name="xibo_settings">Xibo CMS Settings</string>
     <string name="xibo_username">Username</string>
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
-        
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
     </style>
 </resources>

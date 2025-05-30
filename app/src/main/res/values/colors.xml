@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorBackground">#FFFFFF</color>
-    <color name="colorText">#212121</color>
-    <color name="colorTextSecondary">#757575</color>
+    <!-- MongoDB Dark Theme Colors -->
+    <color name="primary">#00ED64</color>
+    <color name="primary_dark">#00CA54</color>
+    <color name="accent">#00ED64</color>
+    
+    <color name="background">#061621</color>
+    <color name="surface">#0E1F2C</color>
+    <color name="error">#CF6679</color>
+    
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="text_hint">#80FFFFFF</color>
+    
+    <color name="status_success">#00ED64</color>
+    <color name="status_error">#CF6679</color>
+    <color name="status_warning">#FFB020</color>
 </resources>
-

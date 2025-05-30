@@ -6,7 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
+8-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
+9-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml
 10
 11    <!-- Internet permissions for WebView and Xibo CMS communication -->
 12    <uses-permission android:name="android.permission.INTERNET" />
@@ -41,230 +43,153 @@
 28-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:21:5-81
 28-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:21:22-78
 29
-30    <queries>
-30-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:22:5-26:15
-31        <intent>
-31-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:23:9-25:18
-32            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
-32-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:24:13-86
-32-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:24:21-83
-33        </intent>
-34    </queries>
+30    <permission
+30-->[androidx.core:core:1.9.0] /Users/shimasarah/.gradle/caches/transforms-3/29f3f9c4dcee74f9d479c7b40e59c2e2/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+31        android:name="com.example.weboverlay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.9.0] /Users/shimasarah/.gradle/caches/transforms-3/29f3f9c4dcee74f9d479c7b40e59c2e2/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.9.0] /Users/shimasarah/.gradle/caches/transforms-3/29f3f9c4dcee74f9d479c7b40e59c2e2/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.example.weboverlay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.9.0] /Users/shimasarah/.gradle/caches/transforms-3/29f3f9c4dcee74f9d479c7b40e59c2e2/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.9.0] /Users/shimasarah/.gradle/caches/transforms-3/29f3f9c4dcee74f9d479c7b40e59c2e2/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 35
-36    <permission
-36-->[androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
-37        android:name="com.example.weboverlay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-37-->[androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
-38        android:protectionLevel="signature" />
-38-->[androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
-39
-40    <uses-permission android:name="com.example.weboverlay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-40-->[androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
-40-->[androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
-41
-42    <application
-42-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:23:5-78:19
-43        android:allowBackup="true"
-43-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:24:9-35
-44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-44-->[androidx.core:core:1.10.1] /Users/shimasarah/.gradle/caches/transforms-3/137252f0652f6d648dfbf7e790566c66/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
-45        android:debuggable="true"
-46        android:extractNativeLibs="false"
-47        android:icon="@mipmap/ic_launcher"
-47-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:25:9-43
-48        android:label="@string/app_name"
-48-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:26:9-41
-49        android:roundIcon="@mipmap/ic_launcher_round"
-49-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:27:9-54
-50        android:supportsRtl="true"
-50-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:28:9-35
-51        android:theme="@style/AppTheme"
-51-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:29:9-40
-52        android:usesCleartextTraffic="true" >
-52-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:30:9-44
-53
-54        <!-- Main activity -->
-55        <activity
-55-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:33:9-41:20
-56            android:name="com.example.weboverlay.MainActivity"
-56-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:34:13-41
-57            android:exported="true"
-57-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:35:13-36
-58            android:launchMode="singleTop" >
-58-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:36:13-43
-59            <intent-filter>
-59-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:37:13-40:29
-60                <action android:name="android.intent.action.MAIN" />
-60-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:38:17-69
-60-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:38:25-66
-61
-62                <category android:name="android.intent.category.LAUNCHER" />
-62-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:39:17-77
-62-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:39:27-74
-63            </intent-filter>
-64        </activity>
-65
-66        <!-- Settings activity -->
-67        <activity
-67-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:44:9-52:20
-68            android:name="com.example.weboverlay.SettingsActivity"
-68-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:45:13-45
-69            android:exported="false"
-69-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:47:13-37
-70            android:label="@string/settings_title"
-70-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:46:13-51
-71            android:parentActivityName="com.example.weboverlay.MainActivity" >
-71-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:48:13-55
-72            <meta-data
-72-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:49:13-51:49
-73                android:name="android.support.PARENT_ACTIVITY"
-73-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:50:17-63
-74                android:value=".MainActivity" />
-74-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:51:17-46
-75        </activity>
-76
-77        <!-- Overlay service -->
-78        <service
-78-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:55:9-59:63
-79            android:name="com.example.weboverlay.OverlayService"
-79-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:56:13-43
-80            android:enabled="true"
-80-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:57:13-35
-81            android:exported="false"
-81-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:58:13-37
-82            android:foregroundServiceType="mediaProjection" />
-82-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:59:13-60
-83
-84        <!-- Camera service for HDMI capture -->
-85        <service
-85-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:62:9-66:54
-86            android:name="com.example.weboverlay.CameraService"
-86-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:63:13-42
-87            android:enabled="true"
-87-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:64:13-35
-88            android:exported="false"
-88-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:65:13-37
-89            android:foregroundServiceType="camera" />
-89-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:66:13-51
-90
-91        <!-- Boot receiver to start service on device boot -->
-92        <receiver
-92-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:69:9-76:20
-93            android:name="com.example.weboverlay.BootReceiver"
-93-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:70:13-41
-94            android:enabled="true"
-94-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:71:13-35
-95            android:exported="true" >
-95-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:72:13-36
-96            <intent-filter>
-96-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:73:13-75:29
-97                <action android:name="android.intent.action.BOOT_COMPLETED" />
-97-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:74:17-79
-97-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:74:25-76
-98            </intent-filter>
-99        </receiver>
-100
-101        <uses-library
-101-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:29:9-31:40
-102            android:name="androidx.camera.extensions.impl"
-102-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:30:13-59
-103            android:required="false" />
-103-->[androidx.camera:camera-extensions:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/db9670fde3d0735ea6cbc1dc19fe1dc8/transformed/jetified-camera-extensions-1.2.3/AndroidManifest.xml:31:13-37
-104
-105        <service
-105-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:24:9-33:19
-106            android:name="androidx.camera.core.impl.MetadataHolderService"
-106-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:25:13-75
-107            android:enabled="false"
-107-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:26:13-36
-108            android:exported="false" >
-108-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:27:13-37
-109            <meta-data
-109-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:30:13-32:89
-110                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-110-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:31:17-103
-111                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-111-->[androidx.camera:camera-camera2:1.2.3] /Users/shimasarah/.gradle/caches/transforms-3/3f29a05561652984a22d8a02ee9523b5/transformed/jetified-camera-camera2-1.2.3/AndroidManifest.xml:32:17-86
-112        </service>
-113
-114        <provider
-114-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-115            android:name="androidx.startup.InitializationProvider"
-115-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-116            android:authorities="com.example.weboverlay.androidx-startup"
-116-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-117            android:exported="false" >
-117-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-118            <meta-data
-118-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-119                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-119-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-120                android:value="androidx.startup" />
-120-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/acd7b7be712c1ada299bcfc81b726076/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-121            <meta-data
-121-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-122                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-122-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-123                android:value="androidx.startup" />
-123-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/shimasarah/.gradle/caches/transforms-3/64a43ba5e267ff1bec7f2dbd5a6fc86a/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-124            <meta-data
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-125                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-125-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-126                android:value="androidx.startup" />
-126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-127        </provider>
-128
-129        <uses-library
-129-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
-130            android:name="androidx.window.extensions"
-130-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
-131            android:required="false" />
-131-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
-132        <uses-library
-132-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
-133            android:name="androidx.window.sidecar"
-133-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
-134            android:required="false" />
-134-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/bf48022c72234629e94754c169ab4098/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
-135
-136        <receiver
-136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-137            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-138            android:directBootAware="false"
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-139            android:enabled="true"
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-140            android:exported="true"
-140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-141            android:permission="android.permission.DUMP" >
-141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-142            <intent-filter>
-142-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-143                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-144            </intent-filter>
-145            <intent-filter>
-145-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-146                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-147            </intent-filter>
-148            <intent-filter>
-148-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-149                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-149-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-149-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-150            </intent-filter>
-151            <intent-filter>
-151-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-152                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-152-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-152-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/shimasarah/.gradle/caches/transforms-3/d68980383f0015e28b8eec4415ed3978/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-153            </intent-filter>
-154        </receiver>
-155    </application>
-156
-157</manifest>
+36    <application
+36-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:23:5-78:19
+37        android:allowBackup="true"
+37-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:24:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.9.0] /Users/shimasarah/.gradle/caches/transforms-3/29f3f9c4dcee74f9d479c7b40e59c2e2/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@mipmap/ic_launcher"
+41-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:25:9-43
+42        android:label="@string/app_name"
+42-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:26:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:27:9-54
+44        android:supportsRtl="true"
+44-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:28:9-35
+45        android:theme="@style/AppTheme"
+45-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:29:9-40
+46        android:usesCleartextTraffic="true" >
+46-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:30:9-44
+47
+48        <!-- Main activity -->
+49        <activity
+49-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:33:9-41:20
+50            android:name="com.example.weboverlay.MainActivity"
+50-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:34:13-41
+51            android:exported="true"
+51-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:35:13-36
+52            android:launchMode="singleTop" >
+52-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:36:13-43
+53            <intent-filter>
+53-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:37:13-40:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:38:17-69
+54-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:38:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:39:17-77
+56-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:39:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <!-- Settings activity -->
+61        <activity
+61-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:44:9-52:20
+62            android:name="com.example.weboverlay.SettingsActivity"
+62-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:45:13-45
+63            android:exported="false"
+63-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:47:13-37
+64            android:label="@string/settings_title"
+64-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:46:13-51
+65            android:parentActivityName="com.example.weboverlay.MainActivity" >
+65-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:48:13-55
+66            <meta-data
+66-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:49:13-51:49
+67                android:name="android.support.PARENT_ACTIVITY"
+67-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:50:17-63
+68                android:value=".MainActivity" />
+68-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:51:17-46
+69        </activity>
+70
+71        <!-- Overlay service -->
+72        <service
+72-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:55:9-59:63
+73            android:name="com.example.weboverlay.OverlayService"
+73-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:56:13-43
+74            android:enabled="true"
+74-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:57:13-35
+75            android:exported="false"
+75-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:58:13-37
+76            android:foregroundServiceType="mediaProjection" />
+76-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:59:13-60
+77
+78        <!-- Camera service for HDMI capture -->
+79        <service
+79-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:62:9-66:54
+80            android:name="com.example.weboverlay.CameraService"
+80-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:63:13-42
+81            android:enabled="true"
+81-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:64:13-35
+82            android:exported="false"
+82-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:65:13-37
+83            android:foregroundServiceType="camera" />
+83-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:66:13-51
+84
+85        <!-- Boot receiver to start service on device boot -->
+86        <receiver
+86-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:69:9-76:20
+87            android:name="com.example.weboverlay.BootReceiver"
+87-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:70:13-41
+88            android:enabled="true"
+88-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:71:13-35
+89            android:exported="true" >
+89-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:72:13-36
+90            <intent-filter>
+90-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:73:13-75:29
+91                <action android:name="android.intent.action.BOOT_COMPLETED" />
+91-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:74:17-79
+91-->/Users/shimasarah/Desktop/Burkina projects/GENYX Internship/weboverlay/app/src/main/AndroidManifest.xml:74:25-76
+92            </intent-filter>
+93        </receiver>
+94
+95        <provider
+95-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/b4c42c170760e861c8fad4bd72d0a5f6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+96            android:name="androidx.startup.InitializationProvider"
+96-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/b4c42c170760e861c8fad4bd72d0a5f6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+97            android:authorities="com.example.weboverlay.androidx-startup"
+97-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/b4c42c170760e861c8fad4bd72d0a5f6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+98            android:exported="false" >
+98-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/b4c42c170760e861c8fad4bd72d0a5f6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+99            <meta-data
+99-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/b4c42c170760e861c8fad4bd72d0a5f6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+100-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/b4c42c170760e861c8fad4bd72d0a5f6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+101                android:value="androidx.startup" />
+101-->[androidx.emoji2:emoji2:1.2.0] /Users/shimasarah/.gradle/caches/transforms-3/b4c42c170760e861c8fad4bd72d0a5f6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+102            <meta-data
+102-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shimasarah/.gradle/caches/transforms-3/2b58776b475b827b81bdbdf5e9e4abf8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+103                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+103-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shimasarah/.gradle/caches/transforms-3/2b58776b475b827b81bdbdf5e9e4abf8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+104                android:value="androidx.startup" />
+104-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/shimasarah/.gradle/caches/transforms-3/2b58776b475b827b81bdbdf5e9e4abf8/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+105        </provider>
+106
+107        <uses-library
+107-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/17322863a71d31dafb136a344e1ccd82/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+108            android:name="androidx.window.extensions"
+108-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/17322863a71d31dafb136a344e1ccd82/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+109            android:required="false" />
+109-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/17322863a71d31dafb136a344e1ccd82/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+110        <uses-library
+110-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/17322863a71d31dafb136a344e1ccd82/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+111            android:name="androidx.window.sidecar"
+111-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/17322863a71d31dafb136a344e1ccd82/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+112            android:required="false" />
+112-->[androidx.window:window:1.0.0] /Users/shimasarah/.gradle/caches/transforms-3/17322863a71d31dafb136a344e1ccd82/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+113    </application>
+114
+115</manifest>

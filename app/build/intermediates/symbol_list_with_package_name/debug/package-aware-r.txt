@@ -658,7 +658,6 @@ attr imagePanX
 attr imagePanY
 attr imageRotate
 attr imageZoom
-attr implementationMode
 attr indeterminateAnimationType
 attr indeterminateProgressStyle
 attr indicatorColor
@@ -1040,7 +1039,6 @@ attr round
 attr roundPercent
 attr saturation
 attr scaleFromTextSize
-attr scaleType
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -1401,10 +1399,12 @@ color abc_tint_edittext
 color abc_tint_seek_thumb
 color abc_tint_spinner
 color abc_tint_switch_track
+color accent
 color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color background
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1417,18 +1417,10 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
-color call_notification_answer_color
-color call_notification_decline_color
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
-color colorAccent
-color colorBackground
-color colorPrimary
-color colorPrimaryDark
-color colorText
-color colorTextSecondary
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1471,6 +1463,7 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color error
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -2103,6 +2096,8 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color preference_fallback_accent_color
+color primary
+color primary_dark
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2117,12 +2112,19 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color status_error
+color status_success
+color status_warning
+color surface
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color text_hint
+color text_primary
+color text_secondary
 color tooltip_background_dark
 color tooltip_background_light
 dimen abc_action_bar_content_inset_material
@@ -3003,12 +3005,6 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_arrow_back_black_24
 drawable ic_arrow_down_24dp
-drawable ic_call_answer
-drawable ic_call_answer_low
-drawable ic_call_answer_video
-drawable ic_call_answer_video_low
-drawable ic_call_decline
-drawable ic_call_decline_low
 drawable ic_camera_notification
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -3204,16 +3200,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btn_emergency_stop
-id btn_settings
-id btn_start_camera
-id btn_start_overlay
-id btn_stop_camera
-id btn_stop_overlay
 id buttonPanel
 id cache_measures
 id callMeasure
-id camera_texture_view
 id cancel_button
 id carryVelocity
 id center
@@ -3234,7 +3223,6 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
-id compatible
 id compress
 id confirm_button
 id constraint
@@ -3297,9 +3285,6 @@ id expand_activities_button
 id expanded_menu
 id fade
 id fill
-id fillCenter
-id fillEnd
-id fillStart
 id fill_horizontal
 id fill_vertical
 id filled
@@ -3342,7 +3327,6 @@ id indeterminate
 id info
 id invisible
 id inward
-id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -3442,9 +3426,6 @@ id on
 id onInterceptTouchReturnSwipe
 id outline
 id outward
-id overlay_background
-id overlay_status
-id overlay_webview
 id overshoot
 id packed
 id parallax
@@ -3457,24 +3438,20 @@ id path
 id pathRelative
 id peekHeight
 id percent
-id performance
 id pin
-id pooling_container_listener_holder_tag
 id position
 id postLayout
 id preferences_detail
 id preferences_header
 id preferences_sliding_pane_layout
 id pressed
-id preview_container
-id preview_texture
+id primary_webview
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
 id recycler_view
-id report_drawn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3555,9 +3532,11 @@ id start
 id startHorizontal
 id startToEnd
 id startVertical
+id start_overlay
 id staticLayout
 id staticPostLayout
 id stop
+id stop_overlay
 id stretch
 id submenuarrow
 id submit_area
@@ -3609,13 +3588,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id txt_app_title
-id txt_camera_section
-id txt_no_preview
-id txt_overlay_section
-id txt_preview_label
-id txt_status
-id txt_status_label
 id unchecked
 id uniform
 id unlabeled
@@ -3896,13 +3868,6 @@ string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
-string call_notification_answer_action
-string call_notification_answer_video_action
-string call_notification_decline_action
-string call_notification_hang_up_action
-string call_notification_incoming_text
-string call_notification_ongoing_text
-string call_notification_screening_text
 string camera_notification_text
 string camera_notification_title
 string camera_permission_required
@@ -5358,7 +5323,6 @@ styleable PreferenceFragmentCompat android_layout android_divider android_divide
 styleable PreferenceGroup android_orderingFromXml initialExpandedChildrenCount orderingFromXml
 styleable PreferenceImageView android_maxWidth android_maxHeight maxHeight maxWidth
 styleable PreferenceTheme checkBoxPreferenceStyle dialogPreferenceStyle dropdownPreferenceStyle editTextPreferenceStyle preferenceCategoryStyle preferenceCategoryTitleTextAppearance preferenceCategoryTitleTextColor preferenceFragmentCompatStyle preferenceFragmentListStyle preferenceFragmentStyle preferenceInformationStyle preferenceScreenStyle preferenceStyle preferenceTheme seekBarPreferenceStyle switchPreferenceCompatStyle switchPreferenceStyle
-styleable PreviewView implementationMode scaleType
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values
